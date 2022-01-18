@@ -1,0 +1,54 @@
+.piano {
+    width: 100%;
+    height: 10rem;
+    /* background: rgb(60, 98, 105); */
+    /* border: 2px solid #000; */
+}
+
+.piano .mkey {
+    /* flex-basis: 20%; */
+    height: 400px;
+    width: 100px;
+    border: 1px solid #333;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    background: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .piano .natural {
+    border: none;
+} */
+.mkey:hover {
+    background: gray;
+    cursor: pointer;
+}
+.t-b {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+}
+
+/* .dark-blue {
+    background: rgb(88, 126, 144);
+
+    border-collapse: collapse;
+    color: #000;
+    border: none;
+} */
+
+.dark-key {
+    background: #000;
+    height: 240px;
+    width: 60px;
+    flex-basis: 20%;
+    margin-right: -30px;
+    margin-left: -30px;
+    z-index: 83;
+    border: none;
+    /* box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
